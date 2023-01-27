@@ -1,3 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegador{
+    background-color: rgb(22, 22, 146);
+    
+}
+
+.navegador > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navegador > ul > li > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    display: block;
+    text-size-adjust: 10px;
+}
+
+
 .tarjeta{
     width: 100 px;
     border: solid 1px;

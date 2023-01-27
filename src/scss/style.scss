@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import "header";
 @import "navbar";
 @import "variables";
@@ -6,3 +5,27 @@
 @import "formulario";
 @import "extend";
 @import "mixin";
+
+.navegador{
+    background-color: $colorFondo;
+    > ul{
+        list-style-type: none;
+        display: flex;
+        > li{
+            > a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                display: inline-block;
+                font-size: 20px;
+                position: sticky;
+                font-family: 'Roboto', sans-serif;
+                border-top: solid 1px green;
+                border-bottom: solid 1px green;
+                &:hover{
+                    color: antiquewhite;
+                }
+            }
+        }
+    }
+}
