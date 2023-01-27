@@ -25,17 +25,19 @@
 
 
 .tarjeta{
-    width: 100 px;
+    width: 33%;
     border: solid 1px;
     border-radius: 8px;
     overflow: hidden;
-    padding: 15px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
+    
 }
 
 .tarjeta_img{
-    width: 33%;
+    width: 100%;
     position: relative;
+    
 }
 
 .tarjeta_titulo {
@@ -49,10 +51,11 @@
 .tarjeta_btn{
     padding: 10px;
     border-radius: 8px;
+    
 }
 
 .btn{
-    width: 70px;
+    width: 90px;
     display: block;
     padding: 10px;
     border-radius: 8px;
